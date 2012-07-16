@@ -10,11 +10,11 @@
  * */
 function Helpers(){
 	//Return random number between min and max
-	this.getRandomNumber(min,max){
+	this.getRandomNumber = function(min,max){
 		return Math.random() * (max-min) + min;
 	}
 	//Return round random integer between min and max
-	this.getRoundRandomNumber(min,max){
+	this.getRoundRandomNumber = function(min,max){
 		return Math.floor(this.getRandomNumber(min,max));
 	}
 	//ltrim
