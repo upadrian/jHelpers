@@ -1,14 +1,22 @@
 /*
  * jHelpers
- * Colección de helpers para jQuery y javascript.
+ * Colecciï¿½n de helpers para jQuery y javascript.
  * Las funciones se acceden mediante Helpers.<function>() ... 
- * Algunas se instancian vía prototype como ltrim para Strings
+ * Algunas se instancian vï¿½a prototype como ltrim para Strings
  * Author: upadrian@gmail.com 2012
- * Versión: 1.0 20120629
+ * Versiï¿½n: 1.0 20120629
  * 
  * 
  * */
 function Helpers(){
+	//Return random number between min and max
+	this.getRandomNumber(min,max){
+		return Math.random() * (max-min) + min;
+	}
+	//Return round random integer between min and max
+	this.getRoundRandomNumber(min,max){
+		return Math.floor(this.getRandomNumber(min,max));
+	}
 	//ltrim
 	if (String.prototype.ltrim == null) 
 		String.prototype.ltrim = function(chars) {
