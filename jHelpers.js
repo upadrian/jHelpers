@@ -1,10 +1,10 @@
 /*
  * jHelpers
- * Colecci�n de helpers para jQuery y javascript.
+ * Colección de helpers para jQuery y javascript.
  * Las funciones se acceden mediante Helpers.<function>() ... 
- * Algunas se instancian v�a prototype como ltrim para Strings
+ * Algunas se instancian vía prototype como ltrim para Strings
  * Author: upadrian@gmail.com 2012
- * Versi�n: 1.0 20120629
+ * Versión: 1.0 20120629
  * 
  * 
  * */
