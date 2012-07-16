@@ -8,7 +8,7 @@
  * 
  * 
  * */
-function Helpers(){
+function jHelpers(){
 	//Return random number between min and max
 	this.getRandomNumber = function(min,max){
 		return Math.random() * (max-min) + min;
@@ -59,4 +59,4 @@ function Helpers(){
 		
 }
 
-var Helpers = new Helpers();
+var jHelpers = new jHelpers();
