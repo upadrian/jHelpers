@@ -4,6 +4,8 @@
  * Las funciones se acceden mediante Helpers.<function>() ... 
  * Algunas se instancian vía prototype como ltrim para Strings
  * Author: upadrian@gmail.com 2012
+ * Versión: 1.1 20130502
+ *	- agregado compareDates
  * Versión: 1.0 20120629
  * 
  * 
