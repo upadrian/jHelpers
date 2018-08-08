@@ -1,0 +1,2 @@
+http://semver.org/
+http://usejsdoc.org/
